@@ -12,6 +12,6 @@ public class CalculatorTest {
 
     @Test
     public void square() {
-        Assert.assertEquals(4,calculator.square(2));
+        Assert.assertEquals(3,calculator.square(2));
     }
 }
