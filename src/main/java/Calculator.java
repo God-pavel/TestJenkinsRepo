@@ -1,8 +1,10 @@
-public class Calculator {
-    public int add(int x, int y){
+class Calculator {
+    int add(int x, int y){
         return x+y;
     }
-    public int square(int x){
+    int square(int x){
         return x*x;
     }
+
+    int substraction(int x, int y){return x-y;}
 }

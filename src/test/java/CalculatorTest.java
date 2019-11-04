@@ -14,4 +14,9 @@ public class CalculatorTest {
     public void square() {
         Assert.assertEquals(4,calculator.square(2));
     }
+
+    @Test
+    public void substraction() {
+        Assert.assertEquals(1,calculator.substraction(2,1 ));
+    }
 }
