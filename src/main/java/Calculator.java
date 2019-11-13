@@ -3,6 +3,6 @@ class Calculator {
         return x+y;
     }
     int square(int x){
-        return x*x;
+        return x*x*x*x;
     }
 }
